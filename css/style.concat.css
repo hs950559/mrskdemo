@@ -555,7 +555,8 @@ body {
     @media only screen and (min-width: 768px) {
       .container .cards {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, minmax(100px, 1fr)); }
+        grid-template-rows: repeat(3, minmax(100px, 1fr));
+        grid-gap: 0; }
       .container .cards .card {
         line-height: 100px;
         border: none;
